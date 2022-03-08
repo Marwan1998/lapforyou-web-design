@@ -1,11 +1,18 @@
+:root{
+  --header_color: #524868;
+  --navigation: #41355a;
+  --background: #646060;
+  --nav_active: #181129;
+}
+
 body {
   margin: 0px;
-  background-color: #646060;
+  background-color: var(--background);
 }
 
 .header {
   overflow: hidden;
-  background-color: #524868;
+  background-color: var(--header_color);
   margin-top: 1px;
   padding-top: 5px;
   padding-bottom: 7px;
@@ -45,20 +52,20 @@ body {
 }
 
 .header a.active {
-  background-color: #181129;
+  background-color: var(--nav_active);
   font-family: monospace;
   color: white;
 }
 
 .header a.about {
-  background-color: #41355a;
+  background-color: var(--navigation);
   font-family: monospace;
   color: white;
   margin-left: 5px;
 }
 
 .header a.contact {
-  background-color: #41355a;
+  background-color: var(--navigation);
   font-family: monospace;
   color: white;
   margin-left: 5px;
