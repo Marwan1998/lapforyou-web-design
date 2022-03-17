@@ -24,7 +24,7 @@
     <br>    
     <div class="container">
 
-      <div class="card">
+      <div id="product1" class="card" onclick="flip(this.id)">
         <div class="imgBx">
           <img alt="" src="/images/laptop1.png" />
         </div>
@@ -113,6 +113,16 @@
       </div>
 
     </div>
+    <script>
+      function flip(id){
+        console.log(id);
+        const ele = document.getElementById(id);
+        ele.style.pointerEvents = "none"
+        const flip = document.querySelector(".card .imgBx");
+        ele.style = "transform: rotateY(180deg); background-color: dodgerblue; color: white;";
+// transform: rotateY(180deg);
+      };
+    </script>
 
 </body>
 </html>
