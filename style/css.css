@@ -134,6 +134,7 @@ body {
   background-color: red;
   grid-column: 1/2;
   display: grid;
+
 }
 
 .img1-container{
