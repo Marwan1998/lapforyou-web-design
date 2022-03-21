@@ -133,6 +133,8 @@ body {
 .catagories{
   background-color: red;
   grid-column: 1/2;
+  display: grid;
+
 }
 
 .img1-container{
@@ -144,3 +146,23 @@ body {
   background-color: rgb(234, 0, 255);
   grid-column: 3/4;
 }
+
+/* Categories Table Style */
+
+table{
+
+}
+
+tr{
+
+}
+
+th{
+
+}
+
+a td{
+  
+}
+
+/* Done Categories Table Style */
