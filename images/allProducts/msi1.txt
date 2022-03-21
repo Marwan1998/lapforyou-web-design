@@ -125,6 +125,7 @@ Intel Core i3-1115G4 11gen
 15.6" Full HD Display
 4GB DDR4
 128GB NVMe SSD
+GPU
 $337.39
 
 
@@ -180,6 +181,4 @@ NVIDIA GeForce RTX 3070
 16GB
 512GB SSD
 $1,445.00
-
-
 
