@@ -1,29 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contact</title>
-    <link rel="icon" type="image/x-icon" href="/images/logo/favicon_LFY.png">
-    <link rel="stylesheet" href="style/css.css" />
-  </head>
-  <body>
-    <!-- Header -->
-    <header class="header">
-      <img class="logo-img" src="/images/logo/for u silver tra.png" alt="logo">
-      <div class="header-right">
-        <a class="home" href="index.html">Home</a>
-        <a class="contact" href="contact.html">Contact</a>
-        <a class="about" href="about.html">About</a>
-        </div>
-    </header>
-    <!-- Done Header -->
 
-    <div>
-        <h1>Contact Page</h1>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact</title>
+  <link rel="icon" type="image/x-icon" href="/images/logo/favicon_LFY.png">
+  <link rel="stylesheet" href="style/contact.css">
+
+  <link rel="stylesheet" href="style/css.css" />
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header">
+    <img class="logo-img" src="/images/logo/for u silver tra.png" alt="logo">
+    <div class="header-right">
+      <a class="home" href="index.html">Home</a>
+      <a class="contact" href="contact.html">Contact</a>
+      <a class="about" href="about.html">About</a>
     </div>
+  </header>
+  <!-- --------------------------------------------------  -->
 
-    
-  </body>
+
+  <!-- Contact Form -->
+  <div class="contact-container">
+    <form action="#">
+      <label for="fname">Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      <label for="lname">Emial</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your email..">
+      <label for="country">Country</label>
+      <select id="country" name="country">
+        <option value="australia">Australia</option>
+        <option value="canada">Canada</option>
+        <option value="usa">USA</option>
+      </select>
+      <label for="subject">Subject</label>
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+  <!-- --------------------------------------------------  -->
+
+  <script>
+    const countries = ["Afghanistan", "Albania", "Algeria", "Andorra", "Angola", 'Antigua and Barbuda', 'Argentina',
+      'Armenia', 'Australia', 'Austria', 'Azerbaijan', 'Bahamas', 'Bahrain', 'Bangladesh', 'Barbados', 'Belarus',
+      'Belgium', 'Belize', 'Benin', 'Bhutan', 'Bolivia', 'Bosnia and Herzegovina', 'Botswana', 'Brazil', 'Brunei',
+      'Bulgaria', 'Burkina Faso', 'Burundi', 'Côte dIvoire', 'Cabo Verde', 'Cambodia', 'Cameroon', 'Canada',
+      'Central African Republic', 'Chad', 'Chile', 'China', 'Colombia', 'Comoros', 'Costa Rica', 'Croatia', 'Cuba',
+      'Cyprus', 'Denmark', 'Djibouti', 'Dominica', 'Dominican Republic', 'Ecuador', 'Egypt', 'El Salvador',
+      'Equatorial', 'Guinea', 'Eritrea', 'Estonia', 'Eswatini', 'Ethiopia', 'Fiji', 'Finland', 'France', 'Gabon',
+      'Gambia',
+      'Georgia', 'Germany', 'Ghana', 'Greece', 'Grenada', 'Guatemala', 'Guinea', 'Guinea Bissau', 'Guyana', 'Haiti',
+      'Holy See', 'Honduras', 'Hungary', 'Iceland', 'India', 'Indonesia', 'Iran', 'Iraq', 'Ireland', 'Italy',
+      'Jamaica',
+      'Japan', 'Jordan', 'Kazakhstan', 'Kenya', 'Kiribati', 'Kuwait', 'Kyrgyzstan', 'Laos', 'Latvia', 'Lebanon',
+      'Lesotho',
+      'Liberia', 'Libya', 'Liechtenstein', 'Lithuania', 'Luxembourg', 'Madagascar', 'Malawi', 'Malaysia', 'Maldives',
+      'Mali',
+      'Malta', 'Marshall Islands', 'Mauritania', 'Mexico', 'Micronesia', 'Moldova', 'Monaco', 'Mongolia',
+      'Montenegro', 'Morocco',
+      'Mozambique', 'Myanmar', 'Namibia', 'Nauru', 'Nepal', 'Netherlands', 'New Zealand', 'Nicaragua', 'Niger',
+      'Nigeria',
+      'North Korea', 'North Macedonia', 'Norway', 'Oman', 'Pakistan', 'Palau', 'Palestine State', 'Panama',
+      'Papua New Guinea', 'Paraguay', 'Peru', 'Philippines', 'Poland', 'Portugal', 'Qatar', 'Romania', 'Russia',
+      'Rwanda', 'Saint Kitts and Nevis', 'Saint Lucia', 'Saint Vincent and the Grenadines', 'Samoa', 'San Marino',
+      'Sao Tome and Principe', 'Saudi Arabia', 'Senegal', 'Serbia', 'Seychelles', 'Singapore', 'Slova,Slovenia',
+      'Solomon Islands', 'Somalia', 'South Africa', 'South Korea', 'South Sudan', 'Spain', 'Sri Lanka', 'Sudan',
+      'Suriname', 'Sweden', 'Switzerland', 'Syria', 'Tajikistan', 'Tanzania', 'Thailand', 'Timor Leste', 'Togo',
+      'Tonga', 'Trinidad and Tobago', 'Tunisia', 'Turkey', 'Turkmenistan', 'Tuvalu', 'Ugand', 'Ukraine',
+      'United Arab Emirates', 'United Kingdom', 'United States of America', 'Uruguay', 'Uzbekistan', 'Vanuatu',
+      'Venezuela', 'Vietnam', 'Yemen', 'Zambia', 'Zimbabwe'
+    ];
+    const countriesContainer = document.getElementById("country");
+    for (const country of countries) {
+      let option = document.createElement("option");
+      option.value = country.toLowerCase().replaceAll(' ', '');
+      option.innerText = country;
+      countriesContainer.appendChild(option);
+    }
+  </script>
+</body>
+
 </html>
