@@ -1,0 +1,185 @@
+- msi1
+
+cor i7 11th
+ram 16 giga 3200
+ssd nvm2 512
+vga navidia rtx 3060
+15.6 ips 144 hz
+window 10
+بي باكوه وملحقاته
+سعر 6350 كاش فقط
+
+- asus1
+
+intel core i7 10th gen
+ram 16gb ddr4
+gpu nivida gtx 1050ti
+512gb ssd
+15.6 fhd 144hz
+
+
+- msi2
+
+Cor i5 10th
+Ram 8
+Ssd 256
+Rtx 3060 6g
+15.6..ips
+Window 10
+سعر 5400
+
+
+- acer1
+
+Acer nitro 5
+Cor i5 11th
+Ram 16
+Ssd 512
+Vga navidia rtx 3050ti
+15.6...144hz
+سعر 5350
+
+
+- dell1
+
+Dell precision 7520
+
+Xeon E3-1545m v5 quad core
+
+Ram 32..ddr4
+
+Ssd 512.
+
+Vga navidia quardo 4 giga
+
+Touch screen full hd 1080..15.6
+
+سعر
+3350
+
+
+- acer2 
+
+New 2021
+Acer nitro 5
+Cor i5 11th
+Ram 16
+Ssd 512
+Vga navidia rtx 3050ti
+15.6...144hz
+
+
+- dell2
+
+dell latitude 3410
+core i5
+8g ram
+ssd nvm2 256
+gpu intel hd
+14 inch fhd
+2880
+
+
+- acer3
+
+Acer nitro 5
+Cor i5 10th 
+Ram 8
+Ssd 256
+Vga navidia rtx 3050
+15.6 144hz 
+Window 10
+4750 
+
+
+- asus2
+
+Asus rog 
+Cor i7 10th 
+Ram 16 
+Ssd 512
+Vga navidia gtx 1650ti 
+15.6..144hz 
+Window 10
+سعر 4950
+
+
+- msi3
+
+MSI Thin GF6322 :
+-i5-10300H 2.6GHz
+-8GB
+-256GB SSD
+-NVIDIA GTX 1650/4GB
+-Webcam
+-BT,WiFi 
+-15.6"(1920X1080)
+-W10
+-Blk-No DVD
+سعر 4325
+
+
+- acer4
+Acer Aspire 5 A515
+Intel Core i3-1115G4 11gen
+15.6" Full HD Display
+4GB DDR4
+128GB NVMe SSD
+$337.39
+
+
+- asus3
+ASUS VivoBook Flip 14
+14” FHD Touch
+1th Gen Intel Core i3-1115G4
+4GB RAM, 128GB SSD,
+400$
+‎Intel UHD Graphics
+
+
+- asus4
+
+2022 Newest ASUS VivoBook
+15.6" Full HD Non-Touch
+AMD Ryzen 3 3250U
+8GB RAM
+128GB SSD
+550$
+AMD Radeon Graphics
+
+
+- dell3
+
+Dell Latitude 5520
+15.6" Touchscreen
+Intel Core i7-1185G7
+6GB DDR4 RAM
+512GB SSD
+Intel Iris Xe Graphics
+$1,662.00
+
+
+- dell4
+
+Dell G15
+15.6 Inch FHD 120Hz
+AMD Ryzen 7 5800H
+8GB RAM
+512GB SSD
+NVIDIA GeForce RTX 3050 Ti
+$997.49
+
+
+
+- msi5
+
+MSI GL66
+15.6" 144Hz FHD 1080p Display
+Intel Core i7-11800H
+NVIDIA GeForce RTX 3070
+16GB
+512GB SSD
+$1,445.00
+
+
+

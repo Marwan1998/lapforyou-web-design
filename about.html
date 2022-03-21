@@ -5,63 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About</title>
-    <link rel="icon" type="image/x-icon" href="/images/logo/favicon_LFY.png">
+    <link rel="icon" type="image/x-icon" href="/images/logo/favicon_LFY.png" />
     <link rel="stylesheet" href="style/css.css" />
-    <link rel="stylesheet" href="style/card.css">
-    <style>
-.flip-card {
-  perspective: 1000px;
-} 
-
-.flip-card-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 1.3s;
-  transform-style: preserve-3d;
-}
-
-.flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
-}
-
-.flip-card-front, .flip-card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-}
-
-/* .flip-card-front {
-} */
-
-.flip-card-back {
-  background-color: #232323;
-  color: white;
-  transform: rotateY(180deg);
-}
-
-    </style>
+    <link rel="stylesheet" href="style/card.css" />
+    <style></style>
   </head>
   <body>
     <!-- Header -->
     <header class="header">
-      <img class="logo-img" src="/images/logo/for u silver tra.png" alt="logo">
+      <img
+        class="logo-img"
+        src="/images/logo/for u silver tra.png"
+        alt="logo"
+      />
       <div class="header-right">
         <a class="home" href="index.html">Home</a>
         <a class="contact" href="contact.html">Contact</a>
         <a class="about" href="about.html">About</a>
-        </div>
+      </div>
     </header>
     <!-- Done Header -->
 
-<div class="container">
-
-  
-      <div class="card flip-card">
-
+    <div class="container">
+      <div id="hov" class="card flip-card">
         <div class="flip-card-inner">
           <div class="flip-card-front">
             <div class="imgBx">
@@ -72,23 +38,24 @@
             </div>
           </div>
           <div class="flip-card-back">
-            <ul>
-              <li>CPU</li>
-              <li>Ram</li>
-              <li>GPU</li>
-            </ul>
-            <span class="color">$999.00</span>
-            <a href="#">Buy Now</a>
+            <ol>
+              <li>Name: List item List item</li>
+              <li>Ram : List item List item</li>
+              <li>GPU : List item List item</li>
+              <li>CPU : List item List item</li>
+              <li>Ram : List item List item</li>
+              <li>GPU : List item List item</li>
+            </ol>
+            <span class="color"> $999.00 </span>
+            <a class="buyBtn" href="#"> Buy Now </a>
           </div>
         </div>
-        
       </div>
-
-
-
-
     </div>
 
-
+    <script>
+      // document.getElementById('hov').onmouseover;
+      // console.log("hello");
+    </script>
   </body>
 </html>
