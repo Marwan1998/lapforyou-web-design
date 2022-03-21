@@ -1,0 +1,30 @@
+.contact-container {
+  border-radius: 5px;
+  background-color: #656F8C;
+  padding: 20px;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  background-color: #d1cfc3;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: #413659;
+  font-weight: 700;
+  color: #d1cfc3;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+/* -------------------------------------------------- */
